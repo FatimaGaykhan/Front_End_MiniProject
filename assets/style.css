@@ -232,54 +232,173 @@ a {
   margin-left: 20px;
 }
 
-.access {
+.great {
+  background: #0e1133;
+}
+.great #platform {
+  padding-bottom: 80px;
+  padding-top: 190px;
+}
+.great #platform .container {
+  display: flex;
+  justify-content: space-between;
+}
+.great #platform .container .widget, .great #platform .container .company {
+  width: 25%;
+}
+.great #platform .container .widget .logo, .great #platform .container .company .logo {
+  width: 114px;
+  height: 30px;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+.great #platform .container .widget .logo img, .great #platform .container .company .logo img {
+  width: 100%;
+  height: 100%;
+}
+.great #platform .container .widget .lesson, .great #platform .container .company .lesson {
+  font-size: 16px;
+  line-height: 24px;
+  color: #a1a2ab;
+  margin-bottom: 30px;
+  padding-right: 0;
+}
+.great #platform .container .widget .icon i, .great #platform .container .company .icon i {
+  display: inline-block;
+  font-size: 15px;
+  width: 44px;
+  height: 44px;
+  line-height: 46px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.3s ease-out 0s;
+}
+.great #platform .container .widget .icon i:hover, .great #platform .container .company .icon i:hover {
+  background-color: transparent;
+}
+.great #platform .container .widget .icon .fa-facebook-f, .great #platform .container .company .icon .fa-facebook-f {
+  border: 2px solid #285da1;
+  background: #285da1;
+}
+.great #platform .container .widget .icon .fa-twitter, .great #platform .container .company .icon .fa-twitter {
+  background: #03a9f4;
+  border: 2px solid #03a9f4;
+}
+.great #platform .container .widget .icon .fa-pinterest-p, .great #platform .container .company .icon .fa-pinterest-p {
+  background: #d2173f;
+  border: 2px solid #d2173f;
+}
+.great #platform .container .widget h3, .great #platform .container .company h3 {
+  padding-top: 5px;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 22px;
+}
+.great #platform .container .widget ul li, .great #platform .container .company ul li {
+  margin-bottom: 8px;
+}
+.great #platform .container .widget ul li a, .great #platform .container .company ul li a {
+  color: #a1a2ab;
+  transition: all 0.3s ease-out 0s;
+}
+.great #platform .container .widget ul li a:hover, .great #platform .container .company ul li a:hover {
+  color: #fff;
+}
+.great #platform .container .widget form, .great #platform .container .company form {
+  display: flex;
+}
+.great #platform .container .widget form input, .great #platform .container .company form input {
+  height: 60px;
+  padding: 0 33px 0 30px;
+  border-radius: 4px;
+  border: none;
+}
+.great #platform .container .widget form button, .great #platform .container .company form button {
+  font-size: 18px;
+  color: #fff;
+  background: #2b4eff;
+  width: 70px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+}
+.great #platform .container .widget p, .great #platform .container .company p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #83848a;
+  padding-right: 60px;
+  margin-top: 10px;
+}
+.great #platform .container .company {
+  margin-left: 8.33333333%;
+}
+.great #theme {
+  padding: 20px 0;
+  border-top: 1px solid #1c1f3f;
+}
+.great #theme .container {
+  text-align: center;
+}
+.great #theme .container p {
+  font-size: 12px;
+  color: #83848a;
+  line-height: 26px;
+}
+.great #theme .container p a {
+  color: #fff;
+}
+
+#access {
   position: relative;
 }
-.access .shape {
+#access .shape {
   height: 300px;
 }
-.access .shape .pink-circle {
+#access .shape .pink-circle {
   position: absolute;
   top: 25%;
   left: 5%;
   animation: 6s linear 0s infinite alternate none running hero-circle-1;
 }
-.access .shape .circle-1 {
+#access .shape .circle-1 {
   position: absolute;
   bottom: 29%;
   left: 0;
 }
-.access .shape .circle-2 {
+#access .shape .circle-2 {
   position: absolute;
   right: 0px;
   bottom: 38%;
 }
-.access .container {
+#access .container {
   display: flex;
   max-width: 1255px;
 }
-.access .container .content {
+#access .container .content {
   margin-left: 35px;
 }
-.access .container .content h3 {
+#access .container .content h3 {
   font-size: 60px;
   line-height: 1;
 }
-.access .container .content h3 .text {
+#access .container .content h3 .text {
   font-weight: 300;
   display: block;
 }
-.access .container .content h3 .yellow-shape {
+#access .container .content h3 .yellow-shape {
   position: relative;
 }
-.access .container .content h3 .yellow-shape img {
+#access .container .content h3 .yellow-shape img {
   position: absolute;
   bottom: -2px;
   left: -8px;
   animation: 3s ease 0s infinite normal none running section-animation;
   transition: all 0.3s ease-out 0s;
 }
-.access .container .content p {
+#access .container .content p {
   font-size: 22px;
   color: rgb(14, 17, 51);
   padding-right: 130px;
@@ -287,7 +406,7 @@ a {
   margin-bottom: 28px;
   margin-top: 20px;
 }
-.access .container .content a {
+#access .container .content a {
   display: inline-block;
   height: 50px;
   line-height: 52px;
@@ -298,38 +417,38 @@ a {
   border-radius: 4px;
   font-weight: 500;
 }
-.access .container .all {
+#access .container .all {
   display: flex;
 }
-.access .container .all .image {
+#access .container .all .image {
   margin-right: 30px;
   position: relative;
 }
-.access .container .all .image .hero-shape .hero-dot {
+#access .container .all .image .hero-shape .hero-dot {
   position: absolute;
   z-index: -1;
   bottom: -25px;
   left: -30px;
   animation: 5s linear 0s infinite alternate none running hero-dot-1;
 }
-.access .container .all .image .hero-circle {
+#access .container .all .image .hero-circle {
   position: absolute;
   z-index: -1;
   bottom: -47px;
   right: -49%;
 }
-.access .container .all .image .circle {
+#access .container .all .image .circle {
   position: absolute;
   top: -50px;
   right: -26%;
 }
-.access .container .all .image img {
+#access .container .all .image img {
   max-width: 400px;
   max-height: 460px;
   border-radius: 40px 4px;
   box-shadow: rgba(1, 11, 60, 0.14) 0px 30px 60px;
 }
-.access .container .all .image .quote-animation {
+#access .container .all .image .quote-animation {
   animation-duration: 2.5s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
@@ -343,53 +462,53 @@ a {
   border-radius: 4px;
   box-shadow: rgba(1, 11, 60, 0.14) 0px 30px 60px;
 }
-.access .container .all .image .quote-animation span {
+#access .container .all .image .quote-animation span {
   font-size: 14px;
   color: rgb(71, 73, 86);
 }
-.access .container .all .image .quote-animation h4 {
+#access .container .all .image .quote-animation h4 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 0px;
   line-height: 1;
 }
-.access .container .all .hero-thumb {
+#access .container .all .hero-thumb {
   margin-top: 50px;
 }
-.access .container .all .hero-thumb img {
+#access .container .all .hero-thumb img {
   max-width: 200px;
   max-height: 240px;
   border-radius: 4px 40px;
   box-shadow: rgba(1, 11, 60, 0.14) 0px 30px 60px;
 }
 
-.explore {
+#explore {
   padding-bottom: 70px;
   padding-top: 120px;
 }
-.explore .container .title {
+#explore .container .title {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin: 0 12px;
 }
-.explore .container .title h2 {
+#explore .container .title h2 {
   font-size: 40px;
   color: rgb(14, 17, 51);
   text-transform: capitalize;
 }
-.explore .container .title h2 span {
+#explore .container .title h2 span {
   transition: all 0.3s ease-out 0s;
   position: relative;
 }
-.explore .container .title h2 span img {
+#explore .container .title h2 span img {
   position: absolute;
   left: -14px;
   bottom: -4px;
   z-index: -1;
   animation: 3s ease 0s infinite normal none running section-animation;
 }
-.explore .container .title a {
+#explore .container .title a {
   position: relative;
   font-size: 16px;
   color: rgb(109, 110, 117);
@@ -397,18 +516,18 @@ a {
   padding-right: 21px;
   display: inline-block;
 }
-.explore .container .title a:hover {
+#explore .container .title a:hover {
   color: blue;
 }
-.explore .container .title a i {
+#explore .container .title a i {
   transition: all 0.3s ease-out 0s;
 }
-.explore .container .boxes {
+#explore .container .boxes {
   display: flex;
   flex-wrap: wrap;
   margin-top: 46px;
 }
-.explore .container .boxes .box {
+#explore .container .boxes .box {
   display: flex;
   width: 31%;
   margin: 12px;
@@ -417,61 +536,61 @@ a {
   border: 2px solid rgb(238, 240, 246);
   transition: all 0.3s ease-out 0s;
 }
-.explore .container .boxes .box svg {
+#explore .container .boxes .box svg {
   width: 40px;
   height: 40px;
   fill: rgb(52, 68, 241);
   margin-right: 30px;
 }
-.explore .container .boxes .box svg .st2,
-.explore .container .boxes .box svg .st5 {
+#explore .container .boxes .box svg .st2,
+#explore .container .boxes .box svg .st5 {
   fill: rgb(255, 179, 31);
 }
-.explore .container .boxes .box .text h4 {
+#explore .container .boxes .box .text h4 {
   font-size: 20px;
   line-height: 1;
   transition: all 0.3s ease-out 0s;
   cursor: pointer;
 }
-.explore .container .boxes .box .text p {
+#explore .container .boxes .box .text p {
   font-size: 16px;
   font-weight: 500;
   color: rgb(109, 110, 117);
   line-height: 26px;
 }
-.explore .container .boxes .box:hover {
+#explore .container .boxes .box:hover {
   background-color: blue;
   border: blue;
   box-shadow: rgba(4, 23, 118, 0.3) 0px 10px 24px;
 }
-.explore .container .boxes .box:hover svg {
+#explore .container .boxes .box:hover svg {
   fill: #fff;
 }
-.explore .container .boxes .box:hover h4 {
+#explore .container .boxes .box:hover h4 {
   color: #fff;
 }
-.explore .container .boxes .box:hover p {
+#explore .container .boxes .box:hover p {
   color: #fff;
 }
 
-.courses {
+#courses {
   padding-bottom: 110px;
 }
-.courses .container .cards {
+#courses .container .cards {
   display: flex;
   justify-content: space-between;
 }
-.courses .container .cards .card {
+#courses .container .cards .card {
   display: flex;
   background: url(https://ng-educal-by.netlify.app/assets/img/banner/banner-bg-1.jpg) center center/cover no-repeat;
   width: 49%;
   border-radius: 4px;
   padding: 50px 40px;
 }
-.courses .container .cards .card .content {
+#courses .container .cards .card .content {
   position: relative;
 }
-.courses .container .cards .card .content span {
+#courses .container .cards .card .content span {
   font-size: 14px;
   font-weight: 500;
   color: rgb(255, 255, 255);
@@ -482,7 +601,7 @@ a {
   border-radius: 10px;
   text-transform: capitalize;
 }
-.courses .container .cards .card .content h3 {
+#courses .container .cards .card .content h3 {
   font-size: 26px;
   color: rgb(14, 17, 51);
   font-weight: 700;
@@ -491,7 +610,7 @@ a {
   margin-top: 14px;
   transition: all 0.3s ease-out 0s;
 }
-.courses .container .cards .card .content a {
+#courses .container .cards .card .content a {
   line-height: 36px;
   padding: 10px 20px;
   font-size: 14px;
@@ -501,88 +620,88 @@ a {
   font-weight: 500;
   text-transform: capitalize;
 }
-.courses .container .cards .card .content a:hover {
+#courses .container .cards .card .content a:hover {
   box-shadow: rgba(4, 23, 118, 0.3) 0px 10px 24px;
 }
-.courses .container .cards .card .content img {
+#courses .container .cards .card .content img {
   position: absolute;
   top: 65%;
   transform: translateY(-50%);
   left: 79%;
 }
 
-.trending {
+#trending {
   background: rgb(243, 244, 248);
   padding-bottom: 120px;
   padding-top: 115px;
 }
-.trending .container {
+#trending .container {
   max-width: 1200px;
 }
-.trending .container .title {
+#trending .container .title {
   margin: 0 12px 40px;
 }
-.trending .container .title h3 {
+#trending .container .title h3 {
   font-size: 40px;
   color: rgb(14, 17, 51);
   text-transform: capitalize;
   margin-bottom: 10px;
 }
-.trending .container .title h3 span {
+#trending .container .title h3 span {
   position: relative;
 }
-.trending .container .title h3 span img {
+#trending .container .title h3 span img {
   position: absolute;
   bottom: -3px;
   left: -12%;
   width: 120%;
   animation: 3s ease 0s infinite normal none running section-animation;
 }
-.trending .container .title p {
+#trending .container .title p {
   font-size: 16px;
   color: rgb(83, 84, 91);
   margin-bottom: 15px;
   line-height: 26px;
   margin-bottom: 60px;
 }
-.trending .container .title .tablist {
+#trending .container .title .tablist {
   display: flex;
   justify-content: space-between;
   width: 44%;
 }
-.trending .container .title .tablist li a {
+#trending .container .title .tablist li a {
   font-size: 16px;
   font-weight: 500;
   color: rgb(14, 17, 51);
 }
-.trending .container .title .tablist li li a:first-child {
+#trending .container .title .tablist li li a:first-child {
   color: red !important;
 }
-.trending .container .cards {
+#trending .container .cards {
   display: flex;
   flex-wrap: wrap;
 }
-.trending .container .cards .card {
+#trending .container .cards .card {
   width: 30%;
   margin: 12px;
   border-radius: 6px;
   background: rgb(255, 255, 255);
 }
-.trending .container .cards .card .img {
+#trending .container .cards .card .img {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
-.trending .container .cards .card .img img {
+#trending .container .cards .card .img img {
   border-radius: 6px 6px 0 0;
   width: 100%;
   height: 100%;
   transition: all 0.3s ease-out 0s;
 }
-.trending .container .cards .card .img img:hover {
+#trending .container .cards .card .img img:hover {
   transform: scale(1.1);
 }
-.trending .container .cards .card .img .art {
+#trending .container .cards .card .img .art {
   position: absolute;
   top: 6%;
   left: 5%;
@@ -596,10 +715,10 @@ a {
   padding: 0px 10px;
   border-radius: 4px;
 }
-.trending .container .cards .card .content {
+#trending .container .cards .card .content {
   padding: 25px 30px 0;
 }
-.trending .container .cards .card .content .lesson {
+#trending .container .cards .card .content .lesson {
   font-size: 16px;
   font-weight: 400;
   display: flex;
@@ -607,15 +726,15 @@ a {
   margin-bottom: 14px;
   color: rgb(109, 110, 117);
 }
-.trending .container .cards .card .content .lesson span i {
+#trending .container .cards .card .content .lesson span i {
   color: rgb(83, 84, 91);
   padding-right: 7px;
 }
-.trending .container .cards .card .content .lesson span .fa-star {
+#trending .container .cards .card .content .lesson span .fa-star {
   padding-right: 5px;
   color: rgb(255, 148, 21);
 }
-.trending .container .cards .card .content a {
+#trending .container .cards .card .content a {
   transition: all 0.3s ease-out 0s;
   font-size: 20px;
   font-weight: 600;
@@ -623,15 +742,15 @@ a {
   display: block;
   margin-bottom: 25px;
 }
-.trending .container .cards .card .content a:hover {
+#trending .container .cards .card .content a:hover {
   color: rgb(13, 110, 253);
 }
-.trending .container .cards .card .content .teacher {
+#trending .container .cards .card .content .teacher {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
 }
-.trending .container .cards .card .content .teacher img {
+#trending .container .cards .card .content .teacher img {
   margin-right: 15px;
   width: 35px;
   height: 35px;
@@ -639,75 +758,75 @@ a {
   border-radius: 50%;
   box-shadow: rgba(1, 11, 60, 0.1) 0px 10px 14px;
 }
-.trending .container .cards .card .content .teacher p {
+#trending .container .cards .card .content .teacher p {
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   color: rgb(83, 84, 91);
 }
-.trending .container .cards .card .content .teacher p:hover {
+#trending .container .cards .card .content .teacher p:hover {
   color: rgb(13, 110, 253);
 }
-.trending .container .cards .card .content .price {
+#trending .container .cards .card .content .price {
   display: flex;
   justify-content: space-between;
   padding-top: 15px;
   border-top: 1px solid rgb(240, 240, 245);
 }
-.trending .container .cards .card .content .price span {
+#trending .container .cards .card .content .price span {
   font-size: 20px;
   color: rgb(177, 40, 255);
   font-weight: 600;
   padding-right: 5px;
 }
-.trending .container .cards .card .content .price span del {
+#trending .container .cards .card .content .price span del {
   font-size: 14px;
   color: rgb(109, 110, 117);
   text-decoration: line-through;
 }
-.trending .container .cards .card .content .price a {
+#trending .container .cards .card .content .price a {
   color: rgb(14, 17, 51);
   font-size: 16px;
 }
-.trending .container .cards .card .content .price a:hover {
+#trending .container .cards .card .content .price a:hover {
   color: blue;
 }
 
-.current {
+#current {
   padding-bottom: 120px;
   padding-top: 115px;
 }
-.current .container {
+#current .container {
   background-image: url(https://ng-educal-by.netlify.app/assets/img/events/events-shape.png);
 }
-.current .container .title {
+#current .container .title {
   text-align: center;
 }
-.current .container .title h4 {
+#current .container .title h4 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
   text-transform: capitalize;
   color: rgb(14, 17, 51);
 }
-.current .container .title h4 span {
+#current .container .title h4 span {
   position: relative;
 }
-.current .container .title h4 span img {
+#current .container .title h4 span img {
   position: absolute;
   left: -4px;
   bottom: 0;
   z-index: -1;
   animation: 3s ease 0s infinite normal none running section-animation;
 }
-.current .container .title p {
+#current .container .title p {
   font-size: 16px;
   font-weight: 400;
   color: rgb(109, 110, 117);
   margin-bottom: 15px;
   line-height: 26px;
 }
-.current .container .items .item {
+#current .container .items .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -720,25 +839,25 @@ a {
   width: 976px;
   margin-bottom: 10px;
 }
-.current .container .items .item .meta span {
+#current .container .items .item .meta span {
   font-size: 16px;
   font-weight: 400;
   color: rgb(109, 110, 117);
   padding-right: 7px;
 }
-.current .container .items .item .meta a {
+#current .container .items .item .meta a {
   display: block;
   font-size: 24px;
   font-weight: 600;
   color: rgb(14, 17, 51);
   margin-top: 6px;
 }
-.current .container .items .item a {
+#current .container .items .item a {
   font-size: 16px;
   color: rgb(109, 110, 117);
   font-weight: 500;
 }
-.current .container .items .item:hover::after {
+#current .container .items .item:hover::after {
   position: absolute;
   content: "";
   top: auto;
