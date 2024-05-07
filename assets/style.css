@@ -1887,17 +1887,17 @@ a {
   #help .container .inner img {
     display: none;
   }
-  .great .platform .container {
+  .great #platform .container {
     display: flex;
     flex-direction: column;
   }
-  .great .platform .container .widget, .great .platform .container .company {
+  .great #platform .container .widget, .great #platform .container .company {
     width: 100%;
     margin-left: 0;
     padding: 0 12px;
     margin-bottom: 50px;
   }
-  .great .platform .container .widget form input, .great .platform .container .company form input {
+  .great #platform .container .widget form input, .great #platform .container .company form input {
     width: 100%;
   }
   .great .theme .container p {
