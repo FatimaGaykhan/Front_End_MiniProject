@@ -407,7 +407,6 @@ a {
 #access {
   background: rgb(237, 238, 243);
   position: relative;
-  z-index: 5;
 }
 #access .shape {
   height: 200px;
@@ -1737,4 +1736,203 @@ a {
   border-color: #2b4eff;
   color: #fff;
   box-shadow: 0 10px 24px rgba(4, 23, 118, 0.3019607843);
+}
+
+@media screen and (max-width: 575px) {
+  .educal .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .educal .container .logo .category {
+    display: none;
+  }
+  .educal .container .fa-bars {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+  }
+  .educal .container .menu {
+    display: none;
+  }
+  .educal .container form {
+    display: none;
+  }
+  #access .shape {
+    height: 100px;
+  }
+  #access .shape .circle-2 {
+    right: 47px;
+    bottom: 31%;
+  }
+  #access .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #access .container .content h3 {
+    font-size: 30px;
+  }
+  #access .container .content p {
+    font-size: 22px;
+    padding-right: 0;
+  }
+  #access .container .all {
+    margin-top: 32px;
+    margin-left: 25px;
+  }
+  #access .container .all .image .hero-shape .hero-circle {
+    right: -3%;
+  }
+  #access .container .all .image .hero-shape .circle {
+    right: -8%;
+  }
+  #access .container .all .image img {
+    width: 100%;
+  }
+  #access .container .all .image .quote-animation {
+    bottom: -29px;
+    right: 8px;
+  }
+  #access .container .all .hero-thumb {
+    display: none;
+  }
+  #explore .container .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #explore .container .title h2 {
+    margin-bottom: 44px;
+  }
+  #explore .container .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  #explore .container .boxes .box {
+    width: 97%;
+  }
+  #courses .container .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+  }
+  #courses .container .cards .card {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #courses .container .cards .card .content img {
+    left: 76%;
+    display: none;
+  }
+  #trending .container {
+    padding: 0 12px;
+  }
+  #trending .container .title .tablist {
+    width: 100%;
+  }
+  #trending .container .cards .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #trending .container .all {
+    display: flex;
+    flex-direction: column;
+  }
+  #trending .container .all .cards .card {
+    width: 100%;
+  }
+  #trending .container .all .blog-sidebar {
+    padding-left: 0;
+  }
+  #trending .container .all .blog-sidebar .sidebar-img {
+    width: 100%;
+  }
+  #current .container .items .item {
+    padding: 28px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #simple .container .teams {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+  }
+  #simple .container .teams .team {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #simple .container .teams .team .offer {
+    right: 2px;
+  }
+  #help .container {
+    left: 0;
+    padding: 0 12px;
+  }
+  #help .container .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 50px 100px 53px 70px;
+  }
+  #help .container .inner h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #help .container .inner a {
+    margin-left: 0;
+  }
+  #help .container .inner img {
+    display: none;
+  }
+  .great .platform .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .great .platform .container .widget, .great .platform .container .company {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 12px;
+    margin-bottom: 50px;
+  }
+  .great .platform .container .widget form input, .great .platform .container .company form input {
+    width: 100%;
+  }
+  .great .theme .container p {
+    width: 100%;
+  }
+  #homecourse .container {
+    padding-top: 20%;
+    padding-left: 12px;
+  }
+  #homecourse .container h3 {
+    font-size: 50px;
+  }
+  #intouch .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #intouch .container form {
+    width: 97%;
+    margin: 0 6px;
+    margin-bottom: 40px;
+  }
+  #intouch .container .inner {
+    width: 97%;
+    margin: 0 12px;
+  }
+  #intouch .container .inner .shape {
+    display: none;
+  }
+  #support .container .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  #support .container .boxes .box {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
