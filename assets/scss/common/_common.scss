@@ -8,9 +8,14 @@ body {
     font-family: Hind, sans-serif;
 }
 
+.active{
+    background-color: blue !important;
+    color: #fff !important;
+}
+
 .container {
     margin: 0 auto;
-    max-width: 1176px;
+    max-width: 1171px;
 }
 
 li {
@@ -19,6 +24,20 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.opened{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.rotated{
+    transform: rotate(-90deg) !important; ;
+
+}
+
+.sidebar-opened {
+    right: 0px !important;
 }
 
 @keyframes section-animation {
